@@ -1,0 +1,79 @@
+.main {
+  height: 570px;
+  width: 89vw;
+  margin: 80px 0px 0px 9.9vw;
+  display: flex;
+  /* background-color: blue; */
+}
+.intro {
+  width: 50vw;
+  height: auto;
+  color: #34313a;
+}
+.working-woman {
+  width: 40vw;
+  background-image: url(../images/illustration-working.svg);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 5vw;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 20vh;
+  margin-bottom: 20px;
+}
+.about {
+  color: darkgray;
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.start-butt {
+  margin-top: 25px;
+  border: none;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  background-color: #07f6f6;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 769px) {
+  .main {
+    flex-direction: column-reverse;
+    height: auto;
+    margin: 0;
+    width: 100vw;
+  }
+  .intro {
+    width: 100vw;
+  }
+  .working-woman {
+    width: 100vw;
+    margin: auto;
+    height: 63vh;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 10vw;
+    width: 100vw;
+    line-height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .about {
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 14px;
+    line-height: 28px;
+  }
+  .start-butt {
+    margin: auto;
+    display: flex;
+  }
+}
