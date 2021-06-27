@@ -30,6 +30,9 @@
   cursor: pointer;
   color: black;
 }
+.right-part {
+  margin: auto 0;
+}
 .login {
   color: darkgray;
   background-color: white;
@@ -37,21 +40,24 @@
   border: none;
   font-weight: 700;
   cursor: pointer;
+  font-size: 17px;
 }
 .sign-up {
   color: white;
   background-color: #07f6f6;
   border: none;
   font-weight: 700;
-  border-radius: 20px;
-  width: 80px;
-  height: 30px;
+  border-radius: 35px;
+  /* width: 80px;
+  height: 30px; */
   cursor: pointer;
+  font-size: 17px;
+  padding: 15px 35px;
 }
 .corner-button {
   display: none;
   position: absolute;
-  top: 7vh;
+  top: 4vh;
   right: 5vw;
 }
 .nav-bar-mobile {
@@ -59,7 +65,7 @@
   justify-content: space-between;
   max-width: 80vw;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 2vh;
   font-size: 1.1rem;
   color: #37363d;
   flex-direction: column;
@@ -81,7 +87,7 @@ button:focus-visible {
   }
   .nav-bar {
     /* justify-content: center; */
-    margin: 5vh 10vw;
+    margin: 2vh 10vw;
   }
   .corner-button {
     display: block;
@@ -94,7 +100,7 @@ button:focus-visible {
     position: relative;
     /* left: 10vw; */
     /* transition: 1s ease; */
-    top: 9px;
+    /* top: 9px; */
   }
   .nav-bar-mobile .left-part {
     flex-direction: column;
@@ -129,8 +135,9 @@ button:focus-visible {
     padding: 0px 0px 27px 0px;
   }
   .nav-bar-mobile .right-part .sign-up {
-    width: 75vw;
-    height: 40px;
+    width: 45vw;
+    /* height: 40px; */
+    padding: 15px 0;
     margin-bottom: 30px;
   }
 }
