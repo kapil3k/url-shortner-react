@@ -48,6 +48,19 @@ button:focus-visible {
   cursor: pointer;
   border: none;
 }
+.search-result {
+  text-align: center;
+  color: white;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 21px 0;
+  background: rgb(2 2 49 / 83%);
+  margin: auto;
+  width: 31vw;
+}
 @media screen and (max-width: 769px) {
   .search-bar {
     background: url(../images/bg-shorten-mobile.svg);
@@ -72,5 +85,8 @@ button:focus-visible {
     margin-bottom: 25px;
     padding: 19px;
     margin-left: auto;
+  }
+  .search-result {
+    width : 80vw
   }
 }
